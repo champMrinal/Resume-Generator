@@ -77,11 +77,14 @@ function generateresume(){
 
     // Links
 
-    document.getElementById("fbT").innerHTML=document.getElementById("fbField").value;
+  document.getElementById("fbT").innerHTML=document.getElementById("fbField").value;
+    document.getElementById("fbT").href=document.getElementById("fbField").value;
 
     document.getElementById("instaT").innerHTML=document.getElementById("instaField").value;
+    document.getElementById("instaT").href=document.getElementById("instaField").value;
 
     document.getElementById("linkedT").innerHTML=document.getElementById("linkedField").value;
+    document.getElementById("linkedT").href=document.getElementById("linkedField").value;
 
 
     // objective
